@@ -8,9 +8,9 @@ const dbConnect = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(() => console.log("DC connection successful"))
+    .then(() => console.log("DB connected successfuly"))
     .catch((error) => {
-      console.log("ISSUE IN DB");
+      console.log("Issue in DB Connection");
       console.error(error.message);
       process.exit(1);
     });

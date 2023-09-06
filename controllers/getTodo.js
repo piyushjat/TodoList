@@ -1,3 +1,36 @@
+const Todo =
+
+exports.getTodo=(async(req,res)=>{
+
+    
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const Todo = require("../models/Todo");
 
 exports.getTodo = async (req,res) => {

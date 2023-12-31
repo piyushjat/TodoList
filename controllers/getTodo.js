@@ -1,35 +1,3 @@
-const Todo =
-
-exports.getTodo=(async(req,res)=>{
-
-    
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const Todo = require("../models/Todo");
 
@@ -85,3 +53,4 @@ catch(err){
         })
 }
 }
+
